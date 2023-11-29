@@ -1,0 +1,326 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Noto+Sans:wght@900&family=Roboto:ital,wght@1,100&display=swap');
+
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#main {
+    background-image: url(pk-en.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1700px, 100vw);
+}
+
+#main .box {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.54;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.nav {
+    max-width: 70vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    margin-top: 10px;
+}
+
+.nav button {
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+    margin-top: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    font-size: small;
+}
+
+.text1 {
+    height: calc(100% - 69px);
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    font-family: 'Marhey', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    gap: 20px;
+    padding: 0 30px;
+}
+.text1> :first-child{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+   
+}
+.text1> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.text1> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.line1{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+    opacity: 0.6 ;
+    margin-top: ;
+}
+.input1 button{
+    padding: 10px 20px;
+    background-color: red;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.input1 input{
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid red;
+    background-color: rgba(23, 23, 23, 0.5);
+    color: white;
+}
+.advertise1{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+ .advertise1> :first-child{
+    display: inline-grid;   
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    font-size: 48px;
+}
+.advertise1> :nth-child(2){
+    color: white;
+    font-size: 24px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.gallery{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -250px;
+    width: 100%;
+    height: 300px;
+}
+.gallery img{
+    
+    position: relative;
+    z-index: 10;
+}
+.gallery video{
+    position: relative;
+    display: flex;
+    margin-left: 49px;
+    width: 268px;
+    margin-top: -223px;
+}
+.advertise2{
+    display: inline-block;
+    position: relative;
+}
+.advertise2> img{
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.advertise2> :nth-child(2){
+    margin-left: 520px;
+    display:inline-flex;
+    font-size: 24px;
+    justify-content: center;
+   
+}
+.advertise2> :nth-child(1){
+    margin-left: 520px;
+    font-size: 48px;
+    
+}
+.advertise2> .gallery img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 0px;
+    margin-left: -550px;
+
+}
+.line2{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(61, 21, 21);
+    opacity: 0.6 ;
+    margin-top: 74px;   
+}
+.line3{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(61, 21, 21);
+    opacity: 0.6 ;
+    margin-top: 0px;   
+}
+
+.advertise4{
+    display: inline-block;
+    position: relative;
+}
+.advertise4> img{
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.advertise4> :nth-child(2){
+    margin-left: 520px;
+    display:inline-flex;
+    font-size: 24px;
+    justify-content: center;
+   
+}
+.advertise4> :nth-child(1){
+    margin-left: 520px;
+    font-size: 48px;
+    
+}
+.advertise4> .gallery img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 0px;
+    margin-left: -550px;
+
+}
+.line4{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(61, 21, 21);
+    opacity: 0.6 ;
+    margin-top: 100px;   
+}
+.fq{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+.fq h1{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 30%;
+ }
+.box1{
+   display: flex;
+   background-color: #2d2d2d;
+   padding: 20px;
+   max-width: 40vw;
+   justify-content: space-between;
+   cursor: pointer;
+   margin: 10px auto;
+   font-size: 20px;
+}
+.btn2 h3{
+    text-align: center;
+    margin: 45px auto;
+}
+.btn2 input{
+    position: relative;
+    width: 250px;
+    height: 35px;
+    background: #2d2d2d;
+    margin-left: 400px;
+    border: 0px;
+}
+.btn2 button{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background: #2d2d2d;
+    margin-left: 10px;
+    border: 0px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+}
+.line5{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(61, 21, 21);
+    opacity: 0.6 ;
+    margin-top: 0px;   
+}
+footer{
+    margin: auto;
+    max-width: 300vw;
+    background-color: black;
+    color: white;
+}
+.footer{
+   display: grid;
+   position: relative;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   color: white;
+   margin: 0px 200px;
+   font-size: 14px;
+}
+.footer span{
+    display:flex;
+    position: absolute;
+    margin: 60px auto;
+    font-size: 16px;
+}
+.footer a{
+    color: white;
+    margin: 08px 0px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 20px;
+}
